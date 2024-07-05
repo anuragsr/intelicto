@@ -1,0 +1,193 @@
+/* Add here all your css styles (customizations) */
+body{
+	overflow-x: hidden !important;
+	font-family: Helvetica, 'sans-serif' !important;
+}
+.flat-testimonials .flat-testimonials-in{
+	background:rgba(0, 0, 0, 0.34);
+}
+.flat-testimonials .flat-testimonials-in img{
+	height: 70px;
+	width: 70px;
+}
+/*button:hover a{
+	text-decoration: none !important;
+	color: white !important;
+}*/
+/*.da-slide-current p{
+	position: relative;
+    top: 170px;
+    font-size: 24px;
+    padding: 5px;
+    box-sizing: border-box;
+}*/
+.da-slide .img-responsive{
+    margin-left: 45%;
+}
+.da-slide.slide-2 .img-responsive{
+    margin-left: 40%;
+    position: relative;
+    top: -15px;
+}
+.da-slide.slide-3 .img-responsive{
+    margin-left: 30%;
+    position: relative;
+    top: -35px;
+    height: 300px;
+    width: 400px;
+}
+.da-slider{
+	background: none;
+}
+.home .da-slider, .services .da-slider{
+	background: transparent url(../img/bg-light2.png) repeat 0% 30%;
+}
+.da-slide p{
+	top: 220px;
+}
+.da-slide h2, .da-slide p {
+	color: #555555 !important
+}
+.da-slide h2 i,.da-slide p i{
+	background: none;
+	position: relative;
+	left: 100px;
+}
+.da-slide.slide-3 h2 i, .da-slide.slide-3 p i{
+	position: relative;
+	left: 200px;
+}
+.bg-video{
+	width: 100%;
+}
+.about-block{
+	text-align: center;
+	padding-top: 20px; 
+}
+.map-content{
+	position: relative;
+    height: 400px;
+    width: 650px;
+    margin: 0 auto;
+    background: url(../img/map.png);
+    background-size: cover;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px 0px #000;
+}
+.map-marker{
+	height: 50px;
+	width: 50px;
+	background: url(../img/marker.png);
+	background-size: cover;
+	position: absolute;
+	top:0;
+	left:0;
+	opacity: 0;
+}
+.m3{
+	top: 145px;
+    left: 105px;
+}
+.m6{
+    top: 95px;
+    left: 275px;
+}
+.m7{
+    top: 195px;
+    left: 275px;
+}
+.m4{
+	top: 110px;
+    left: 330px;
+}
+.m2{
+	top: 250px;
+    left: 530px;
+}
+.m5{
+	top: 210px;
+    left: 470px;
+}
+.m1{
+	top: 176px;
+    left: 430px;
+}
+.flat-testimonials .flat-testimonials-in h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+.flat-testimonials .flat-testimonials-in p{
+	color: #fff;
+    font-weight: 700;
+}
+.flat-testimonials .flat-testimonials-in p:before,.flat-testimonials .flat-testimonials-in p:after{
+	content:"";
+}
+.flat-testimonials-in a{
+	color:#375120;
+}
+.bg-image-v1{
+	background: url(../img/bg-light2.png);
+}
+.process-v1 .process-border:before{
+	width: 75%;
+    left: 12%;
+}
+.process-desc ul{
+	font-size:16px;
+	text-align: left;
+}
+.headline-center-v2 span.bordered-icon:before, .headline-center-v2 span.bordered-icon:after{
+	background: #000;
+}
+.headline-center-v2 span.bordered-icon{
+	color: #000;
+}
+/* Media Queries */
+@media screen and (max-width:412px){
+
+	.desktop-only{
+		display: none;
+	}
+/*
+	.da-slider{
+		height: 150px !important;
+	}*/
+	.map-content{
+		/*transform: scale(0.7);*/
+	    height: 200px;
+		width: 100%;
+	}
+	.map-marker{
+	    height: 20px;
+    	width: 20px;
+	}
+	.m3{
+		top: 57px;
+    	left: 55px;
+	}
+	.m1{
+		top: 45px;
+    	left: 135px;
+	}
+	.m2{
+	    top: 80px;
+    	left: 210px;
+	}
+	.m4{
+		top: 55px;
+	    left: 150px;
+	}
+	.m5{
+	    top: 132px;
+    	left: 263px;
+	}
+	.m6{
+	    top: 60px;
+    	left: 170px;
+	}
+	.m7{
+        top: 105px;
+    	left: 230px;
+	}
+}
